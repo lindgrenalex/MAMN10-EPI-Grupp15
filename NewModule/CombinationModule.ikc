@@ -16,12 +16,12 @@
         factor = "0.5"
     />
 
-    <!--
     <module
         class = "MarkerTracker"
         name = "MarkerTracker"
+        marker_size = "0 999 45; 1000 1999 90; 2000 2999 24"
     />
-    -->
+    
 
     <module
         class = "MPIFaceDetector"
@@ -35,7 +35,7 @@
         target = "INPUT"
     />
 
-    <!--
+
     <connection
         sourcemodule = "VideoStream"
         source = "INTENSITY"
@@ -43,7 +43,6 @@
         target = "INPUT"
         delay = "0"
     />
-    -->
 
     <connection
         sourcemodule = "VideoStream"
@@ -74,17 +73,26 @@
             y="0"
         />
     
-        <!--
+    
         <object
-            class="Image"
+            class="Path"
             name="Color3"
             module="MarkerTracker"
             type="gray"
             source="MARKERS"
+            length_source = "MARKER_COUNT"
             x="0"
             y="1"
+            min = "0"
+            max = "1"
+            select = "20"
+            count = "4"
+            close = "yes"
+            color="red"
+            stroke_width="7"
+            fill = "rgba(255,0,0,0.45)"
+            line_join="round"
         />
-        -->
     
         <object
             class="Image"
@@ -103,8 +111,52 @@
             x="2"
             y="0"
         />
-    
+        
+        <object
+            class   ="Image"
+            title   = "VideoStream"
+            type	= "rgb"
+            module  = "VideoStream"
+            source  = "RED+GREEN+BLUE"
+            x="0" y="1"
+            w="1" h="1"
+            min = "0"
+            max = "1"
+        />
+        
+        <object
+            class   = "Path"
+            module  = "MarkerTracker"
+            source  = "MARKERS"
+            length_source = "MARKER_COUNT"
+            x="0" y="1"
+            w="1" h="1"
+            min = "0"
+            max = "1"
+            select = "20"
+            count = "4"
+            close = "yes"
+            color="red"
+            stroke_width="7"
+            fill = "rgba(255,0,0,0.45)"
+            line_join="round"
+        />
+        
+        <object
+            class   = "Label"
+            type    = "value"
+            select  = "18"
+            select_value = "16"
+            decimals = "0"
+            offset_x = "0"
+            offset_y = "0.01"
+            size = "30"
+            color = "white"
+            module  = "MarkerTracker"
+            source  = "MARKERS"
+            x="0" y="1"
+            w="1" h="1"
+        />
     </view>
-
 </group>
 

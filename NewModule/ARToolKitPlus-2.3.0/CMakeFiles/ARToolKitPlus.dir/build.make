@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.6.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0
+CMAKE_SOURCE_DIR = /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0
+CMAKE_BINARY_DIR = /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ARToolKitPlus.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ARToolKitPlus.dir/flags.make
 
 CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.o: src/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/Camera.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/Camera.cpp > CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/Camera.cpp > CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/Camera.cpp -o CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/Camera.cpp -o CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ARToolKitPlus.dir/src/Camera.cpp.o.provides.build: CMakeFiles/ARToolK
 
 CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.o: src/Tracker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/Tracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/Tracker.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/Tracker.cpp > CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/Tracker.cpp > CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/Tracker.cpp -o CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/Tracker.cpp -o CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ARToolKitPlus.dir/src/Tracker.cpp.o.provides.build: CMakeFiles/ARTool
 
 CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.o: src/TrackerMultiMarker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/TrackerMultiMarker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/TrackerMultiMarker.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/TrackerMultiMarker.cpp > CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/TrackerMultiMarker.cpp > CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/TrackerMultiMarker.cpp -o CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/TrackerMultiMarker.cpp -o CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ARToolKitPlus.dir/src/TrackerMultiMarker.cpp.o.provides.build: CMakeF
 
 CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.o: src/TrackerSingleMarker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/TrackerSingleMarker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/TrackerSingleMarker.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/TrackerSingleMarker.cpp > CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/TrackerSingleMarker.cpp > CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/TrackerSingleMarker.cpp -o CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/TrackerSingleMarker.cpp -o CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ARToolKitPlus.dir/src/TrackerSingleMarker.cpp.o.provides.build: CMake
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.o: src/core/arBitFieldPattern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arBitFieldPattern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arBitFieldPattern.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arBitFieldPattern.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arBitFieldPattern.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arBitFieldPattern.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arBitFieldPattern.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arBitFieldPattern.cpp.o.provides.build: CM
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.o: src/core/arDetectMarker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker.cpp.o.provides.build: CMake
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.o: src/core/arDetectMarker2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker2.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker2.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker2.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker2.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker2.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arDetectMarker2.cpp.o.provides.build: CMak
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.o: src/core/arGetCode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetCode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetCode.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetCode.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetCode.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetCode.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetCode.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arGetCode.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.o: src/core/arGetInitRot2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetInitRot2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetInitRot2.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetInitRot2.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetInitRot2.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetInitRot2.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetInitRot2.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arGetInitRot2.cpp.o.provides.build: CMakeF
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.o: src/core/arGetMarkerInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetMarkerInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetMarkerInfo.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetMarkerInfo.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetMarkerInfo.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetMarkerInfo.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetMarkerInfo.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arGetMarkerInfo.cpp.o.provides.build: CMak
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.o: src/core/arGetTransMat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat.cpp.o.provides.build: CMakeF
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.o: src/core/arGetTransMat2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat2.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat2.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat2.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat2.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat2.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat2.cpp.o.provides.build: CMake
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.o: src/core/arGetTransMat3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat3.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat3.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat3.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat3.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat3.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMat3.cpp.o.provides.build: CMake
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.o: src/core/arGetTransMatCont.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMatCont.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMatCont.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMatCont.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMatCont.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMatCont.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMatCont.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arGetTransMatCont.cpp.o.provides.build: CM
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.o: src/core/arLabeling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabeling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabeling.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabeling.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabeling.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabeling.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabeling.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arLabeling.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.o: src/core/arMultiActivate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiActivate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiActivate.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiActivate.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiActivate.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiActivate.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiActivate.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arMultiActivate.cpp.o.provides.build: CMak
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.o: src/core/arMultiGetTransMat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMat.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMat.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMat.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMat.cpp.o.provides.build: C
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.o: src/core/arMultiGetTransMatHull.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMatHull.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMatHull.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMatHull.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMatHull.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMatHull.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMatHull.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arMultiGetTransMatHull.cpp.o.provides.buil
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.o: src/core/arMultiReadConfigFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiReadConfigFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiReadConfigFile.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiReadConfigFile.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiReadConfigFile.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiReadConfigFile.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiReadConfigFile.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arMultiReadConfigFile.cpp.o.provides.build
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.o: src/core/arUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arUtil.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arUtil.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arUtil.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arUtil.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arUtil.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/arUtil.cpp.o.provides.build: CMakeFiles/AR
 
 CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.o: src/core/mPCA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/mPCA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/mPCA.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/mPCA.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/mPCA.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/mPCA.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/mPCA.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/mPCA.cpp.o.provides.build: CMakeFiles/ARTo
 
 CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.o: src/core/matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/matrix.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/matrix.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/matrix.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/matrix.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/matrix.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/matrix.cpp.o.provides.build: CMakeFiles/AR
 
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.o: src/core/paramDecomp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/paramDecomp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/paramDecomp.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/paramDecomp.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/paramDecomp.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/paramDecomp.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/paramDecomp.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/paramDecomp.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.o: src/core/paramDistortion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/paramDistortion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/paramDistortion.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/paramDistortion.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/paramDistortion.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/paramDistortion.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/paramDistortion.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/paramDistortion.cpp.o.provides.build: CMak
 
 CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.o: src/core/rppGetTransMat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/rppGetTransMat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/rppGetTransMat.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/rppGetTransMat.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/rppGetTransMat.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/rppGetTransMat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/rppGetTransMat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/rppGetTransMat.cpp.o.provides.build: CMake
 
 CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.o: src/core/rppMultiGetTransMat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/rppMultiGetTransMat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/rppMultiGetTransMat.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/rppMultiGetTransMat.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/rppMultiGetTransMat.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/rppMultiGetTransMat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/rppMultiGetTransMat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/rppMultiGetTransMat.cpp.o.provides.build: 
 
 CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.o: src/core/vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/vector.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/vector.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/vector.cpp > CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/vector.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/vector.cpp -o CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/ARToolKitPlus.dir/src/core/vector.cpp.o.provides.build: CMakeFiles/AR
 
 CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.o: src/extra/BCH.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/BCH.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/BCH.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/BCH.cpp > CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/BCH.cpp > CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/BCH.cpp -o CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/BCH.cpp -o CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/ARToolKitPlus.dir/src/extra/BCH.cpp.o.provides.build: CMakeFiles/ARTo
 
 CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.o: src/extra/Hull.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/Hull.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/Hull.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/Hull.cpp > CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/Hull.cpp > CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/Hull.cpp -o CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/Hull.cpp -o CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/ARToolKitPlus.dir/src/extra/Hull.cpp.o.provides.build: CMakeFiles/ART
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.o: src/librpp/arGetInitRot2Sub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/arGetInitRot2Sub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/arGetInitRot2Sub.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/arGetInitRot2Sub.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/arGetInitRot2Sub.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/arGetInitRot2Sub.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/arGetInitRot2Sub.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/ARToolKitPlus.dir/src/librpp/arGetInitRot2Sub.cpp.o.provides.build: C
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.o: src/librpp/librpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/ARToolKitPlus.dir/src/librpp/librpp.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.o: src/librpp/rpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp.cpp.o.provides.build: CMakeFiles/ART
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.o: src/librpp/rpp_quintic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_quintic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_quintic.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_quintic.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_quintic.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_quintic.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_quintic.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_quintic.cpp.o.provides.build: CMakeF
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.o: src/librpp/rpp_svd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_svd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_svd.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_svd.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_svd.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_svd.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_svd.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.o: CMakeFiles/ARToolKitPlus.dir/flags.make
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.o: src/librpp/rpp_vecmat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.o -c /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.o -c /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.cpp
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.cpp > CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.i
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.cpp -o CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.s
 
 CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.o.requires:
 
@@ -975,7 +975,7 @@ lib/libARToolKitPlus.dylib: CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_svd.cpp.
 lib/libARToolKitPlus.dylib: CMakeFiles/ARToolKitPlus.dir/src/librpp/rpp_vecmat.cpp.o
 lib/libARToolKitPlus.dylib: CMakeFiles/ARToolKitPlus.dir/build.make
 lib/libARToolKitPlus.dylib: CMakeFiles/ARToolKitPlus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX shared library lib/libARToolKitPlus.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX shared library lib/libARToolKitPlus.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ARToolKitPlus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1026,6 +1026,6 @@ CMakeFiles/ARToolKitPlus.dir/clean:
 .PHONY : CMakeFiles/ARToolKitPlus.dir/clean
 
 CMakeFiles/ARToolKitPlus.dir/depend:
-	cd /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0 /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0 /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0 /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0 /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/CMakeFiles/ARToolKitPlus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0 /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0 /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0 /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0 /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/CMakeFiles/ARToolKitPlus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ARToolKitPlus.dir/depend
 

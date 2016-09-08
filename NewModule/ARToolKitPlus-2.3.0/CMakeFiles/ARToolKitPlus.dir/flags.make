@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -O3
 
 CXX_DEFINES = -DARToolKitPlus_EXPORTS
 
-CXX_INCLUDES = -I/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/include 
+CXX_INCLUDES = -I/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/include 
 

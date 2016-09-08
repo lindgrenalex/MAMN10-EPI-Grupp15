@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/Camera.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/Camera.cpp
 cstdlib
 -
 cstring
@@ -26,7 +26,7 @@ boost/property_tree/ptree.hpp
 boost/property_tree/xml_parser.hpp
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/Tracker.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/Tracker.cpp
 ARToolKitPlus/Tracker.h
 -
 iostream
@@ -34,17 +34,17 @@ iostream
 cassert
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/TrackerMultiMarker.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/TrackerMultiMarker.cpp
 ARToolKitPlus/TrackerMultiMarker.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/TrackerSingleMarker.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/TrackerSingleMarker.cpp
 iostream
 -
 ARToolKitPlus/TrackerSingleMarker.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arBitFieldPattern.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arBitFieldPattern.cpp
 ARToolKitPlus/Tracker.h
 -
 ARToolKitPlus/arBitFieldPattern.h
@@ -52,7 +52,7 @@ ARToolKitPlus/arBitFieldPattern.h
 cassert
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker.cpp
 ARToolKitPlus/Tracker.h
 -
 cstdio
@@ -60,13 +60,13 @@ cstdio
 cassert
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker2.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arDetectMarker2.cpp
 ARToolKitPlus/Tracker.h
 -
 cstdio
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetCode.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetCode.cpp
 cstdio
 -
 cmath
@@ -80,29 +80,29 @@ ARToolKitPlus/ar.h
 ARToolKitPlus/matrix.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetInitRot2.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetInitRot2.cpp
 ARToolKitPlus/arGetInitRot2Sub.h
 -
 ARToolKitPlus/Tracker.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetMarkerInfo.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetMarkerInfo.cpp
 ARToolKitPlus/Tracker.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat.cpp
 ARToolKitPlus/Tracker.h
 -
 ARToolKitPlus/matrix.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat2.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat2.cpp
 ARToolKitPlus/Tracker.h
 -
 cmath
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat3.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMat3.cpp
 ARToolKitPlus/Tracker.h
 -
 ARToolKitPlus/matrix.h
@@ -110,11 +110,11 @@ ARToolKitPlus/matrix.h
 cmath
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMatCont.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arGetTransMatCont.cpp
 ARToolKitPlus/Tracker.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabeling.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabeling.cpp
 stdlib.h
 -
 stdio.h
@@ -122,23 +122,23 @@ stdio.h
 ARToolKitPlus/Tracker.h
 -
 arLabelingImpl.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
 arLabelingImpl.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
 arLabelingImpl.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
 arLabelingImpl.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
 arLabelingImpl.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arLabelingImpl.h
 ARToolKitPlus/Tracker.h
 -
 cassert
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiActivate.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiActivate.cpp
 stdio.h
 -
 stdlib.h
@@ -152,7 +152,7 @@ ARToolKitPlus/matrix.h
 ARToolKitPlus/arMulti.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMat.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMat.cpp
 stdio.h
 -
 stdlib.h
@@ -164,7 +164,7 @@ ARToolKitPlus/Tracker.h
 ARToolKitPlus/matrix.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMatHull.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiGetTransMatHull.cpp
 cassert
 -
 ARToolKitPlus/extra/Hull.h
@@ -174,7 +174,7 @@ ARToolKitPlus/Tracker.h
 ARToolKitPlus/arGetInitRot2Sub.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiReadConfigFile.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arMultiReadConfigFile.cpp
 cstdio
 -
 cstdlib
@@ -190,7 +190,7 @@ ARToolKitPlus/Tracker.h
 ARToolKitPlus/matrix.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/arUtil.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/arUtil.cpp
 ARToolKitPlus/Tracker.h
 -
 ARToolKitPlus/Camera.h
@@ -198,7 +198,7 @@ ARToolKitPlus/Camera.h
 ARToolKitPlus/matrix.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/mPCA.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/mPCA.cpp
 stdio.h
 -
 math.h
@@ -208,7 +208,7 @@ ARToolKitPlus/matrix.h
 ARToolKitPlus/Tracker.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/matrix.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/matrix.cpp
 cmath
 -
 cstdlib
@@ -216,7 +216,7 @@ cstdlib
 ARToolKitPlus/matrix.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/paramDecomp.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/paramDecomp.cpp
 stdio.h
 -
 math.h
@@ -226,7 +226,7 @@ ARToolKitPlus/Tracker.h
 ARToolKitPlus/matrix.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/paramDistortion.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/paramDistortion.cpp
 cstdio
 -
 cmath
@@ -242,7 +242,7 @@ ARToolKitPlus/Camera.h
 ARToolKitPlus/Camera.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/rppGetTransMat.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/rppGetTransMat.cpp
 ARToolKitPlus/Tracker.h
 -
 ARToolKitPlus/matrix.h
@@ -250,7 +250,7 @@ ARToolKitPlus/matrix.h
 ARToolKitPlus/extra/rpp.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/rppMultiGetTransMat.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/rppMultiGetTransMat.cpp
 stdio.h
 -
 stdlib.h
@@ -272,7 +272,7 @@ ARToolKitPlus/matrix.h
 ARToolKitPlus/extra/rpp.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/core/vector.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/core/vector.cpp
 cmath
 -
 ARToolKitPlus/Tracker.h
@@ -282,87 +282,87 @@ ARToolKitPlus/matrix.h
 ARToolKitPlus/vector.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/BCH.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/BCH.cpp
 ARToolKitPlus/extra/BCH.h
 -
 assert.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/assert.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/assert.h
 vector
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/extra/Hull.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/extra/Hull.cpp
 ARToolKitPlus/extra/Hull.h
 -
 assert.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/arGetInitRot2Sub.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/arGetInitRot2Sub.cpp
 ARToolKitPlus/arGetInitRot2Sub.h
 -
 rpp.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.h
 cstring
 -
 rpp_vecmat.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
 rpp_const.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_const.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_const.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.cpp
 librpp.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.h
 rpp.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.h
 rpp_vecmat.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
 rpp_const.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_const.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_const.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/librpp.h
 rpp_types.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.cpp
 cstring
 -
 cmath
 -
 rpp.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.h
 rpp_vecmat.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
 rpp_const.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_const.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_const.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp.h
 rpp_types.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_const.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_const.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_quintic.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_quintic.cpp
 cmath
 -
 stdio.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/stdio.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/stdio.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_svd.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_svd.cpp
 math.h
 -
 assert.h
 -
 rpp_types.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
 vector
 -
 ARToolKitPlus/extra/rpp.h
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.cpp
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.cpp
 rpp_vecmat.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
 cmath
 -
 cassert
@@ -372,9 +372,9 @@ cstdlib
 cstdio
 -
 
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_vecmat.h
 rpp_types.h
-/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
+/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/src/librpp/rpp_types.h
 cmath
 -
 

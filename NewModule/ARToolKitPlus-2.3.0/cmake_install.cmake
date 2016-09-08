@@ -1,4 +1,4 @@
-# Install script for directory: /users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0
+# Install script for directory: /Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,7 +28,7 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/lib/libARToolKitPlus.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/lib/libARToolKitPlus.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libARToolKitPlus.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libARToolKitPlus.dylib")
     execute_process(COMMAND "/usr/bin/install_name_tool"
@@ -41,7 +41,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/users/alexanderlindgren/ikaros/Source/NewModule/ARToolKitPlus-2.3.0/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/alexanderlindgren/Desktop/MAMN10-EPI-Grupp15/NewModule/ARToolKitPlus-2.3.0/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
