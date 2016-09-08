@@ -43,13 +43,14 @@
         target = "INPUT"
         delay = "0"
     />
-
+    
     <connection
         sourcemodule = "VideoStream"
         source = "INTENSITY"
         targetmodule = "MPIFaceDetector"
         target = "INPUT"
     />
+    
 
     <view name="Movie View" object_size="500">
     
@@ -106,8 +107,9 @@
     
         <object
             class="Slider"
+            name = "slidervalue"
             module="Scale"
-            parameter="p"
+            parameter="factor"
             x="2"
             y="0"
         />
