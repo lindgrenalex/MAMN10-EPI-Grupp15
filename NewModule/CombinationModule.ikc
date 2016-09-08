@@ -2,7 +2,7 @@
 
 <group name="CombinationModule" description="combinds the camera module with the scale module">
 
-<!-- TEST-->
+<!-- TEST2-->
     <module
         class = "InputVideoQT"
         name = "VideoStream"
