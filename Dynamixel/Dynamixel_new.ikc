@@ -78,6 +78,7 @@
     
     <!-- Tau -->
     
+    <!--
     <module
         class		=	"FunctionGenerator"
         name		=	"GoalPosition"
@@ -86,6 +87,12 @@
         offset      =	"240"
         amplitude	=	"20"
         shift		=	"0.0"
+    />
+    -->
+    
+    <moduel
+        class       = "FirstModule"
+        name        = "GoalPosition"
     />
      
     
