@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<group name="FirstModule" description="Our first module">
+
+	<example description="Our first module">
+		<module
+			class="FirstModule"
+			name="FirstModule"
+		/>
+	</example>
+    
+    <!--
+	<parameter name="StartButton" type="int" default="0" description="startbutton parameter" />
+     -->
+
+	<input name="INPUT" description="The first input" />
+    
+    <input name="INPUT_NbrMarkers" description="Number of found markers" />
+
+	<output name="OUTPUT_Servo1" description="Output position servo1" size="1" />
+    
+    <output name="OUTPUT_Servo2" description="Output position servo2" size="1" />
+    
+    <output name="OUTPUT_Servo3" description="Output position servo3" size="1" />
+
+	<module class="FirstModule" />
+    
+    <view title="ThrowModule">
+        <object
+        x="0" y="0" w="2"
+        class="Plot"
+        module="*"
+        source="OUTPUT_Servo1"
+        title="test plot first module"
+        min="-1"
+        max="1"
+        />
+        
+        <object
+        x="2" y="0" w="2"
+        class="Plot"
+        module="*"
+        source="OUTPUT_Servo2"
+        title="test plot first module"
+        min="-1"
+        max="1"
+        />
+        
+        <object
+        x="4" y="0" w="2"
+        class="Plot"
+        module="*"
+        source="OUTPUT_Servo3"
+        title="test plot first module"
+        min="-1"
+        max="1"
+        />
+        
+    </view>
+
+
+   <files>
+   		<file>ThrowModule.h</file>
+   		<file>ThrowModule.cc</file>
+   		<file>ThrowModule.ikc</file>
+   </files>
+
+</group>
+
