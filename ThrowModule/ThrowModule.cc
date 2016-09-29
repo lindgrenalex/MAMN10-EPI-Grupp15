@@ -39,19 +39,19 @@ void
 ThrowModule::Tick()
 {
     
-    if( t > 20) {
+    if( t > 10) {
     
         if(input_array_NbrMarkers[0] == 1) { // if found 1 marker -> Load position!
     
             output_array_Servo1[0] = 180;
             output_array_Servo2[0] = 100;
-            output_array_Servo3[0] = 220;
+            output_array_Servo3[0] = 160;
     
         } else if (input_array_NbrMarkers[0] == 2) { // if found 2 markers -> Throw away!
         
             output_array_Servo1[0] = 180;
             output_array_Servo2[0] = 200;
-            output_array_Servo3[0] = 255;
+            output_array_Servo3[0] = 200;
         
         } else {                           // else -> go to start position
     

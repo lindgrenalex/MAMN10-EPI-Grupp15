@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 
-<group name="FirstModule" description="Our first module">
+<group name="ThrowModule" description="Our first module">
 
 	<example description="Our first module">
 		<module
-			class="FirstModule"
-			name="FirstModule"
+			class="ThrowModule"
+			name="ThrowModule"
 		/>
 	</example>
     
@@ -23,7 +23,7 @@
     
     <output name="OUTPUT_Servo3" description="Output position servo3" size="1" />
 
-	<module class="FirstModule" />
+	<module class="ThrowModule" />
     
     <view title="ThrowModule">
         <object
