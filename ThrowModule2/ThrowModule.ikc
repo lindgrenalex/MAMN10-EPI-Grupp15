@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<group name="ThrowModule" description="Our throw module for servo positions">
+
+	<example description="Our first module">
+		<module
+			class="ThrowModule"
+			name="ThrowModule"
+		/>
+	</example>
+    
+    <!--
+	<parameter name="StartButton" type="int" default="0" description="startbutton parameter" />
+     -->
+
+	<input name="INPUT" description="Input angle for head" />
+
+	<output name="OUTPUT_servo_position" description="Output position servos" size="3" />
+
+	<module class="ThrowModule" />
+
+   <files>
+   		<file>ThrowModule.h</file>
+   		<file>ThrowModule.cc</file>
+   		<file>ThrowModule.ikc</file>
+   </files>
+
+</group>
+

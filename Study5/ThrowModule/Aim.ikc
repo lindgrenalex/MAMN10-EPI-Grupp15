@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+
+<group title="Aim main ikc">
+    
+    
+    <module
+        class = "Dynamixel"
+        name = "Dynamixel"
+        device  = "/dev/cu.usbserial-A4012AK3"
+        index_mode = "indirect"
+        printf_info ="full"
+        use_feedback ="true"
+        baud_rate = "1000000"
+        angle_unit = "degrees"
+    />
+    
+
+    <module
+        class       = "ThrowModule"
+        name        = "ThrowModule"
+    />
+    
+    <module
+        class 			= "Kinect_own"
+        name 			= "Kinect_own"
+        mode            = "mm"
+        xtion           = "false"
+    />
+    
+    <module
+        class = "MPIFaceDetector"
+        name = "FaceDetector"
+    />
+    
+    <module
+        class 			= "Constant"
+        name 			= "Color"
+        data            = "0.0"
+        outputsize      = "1"
+    />
+    
+    <module
+        class 			= "Constant"
+        name 			= "Tilt"
+        data            = "0.5"
+        outputsize      = "1"
+    />
+
+
+
+    <connection
+        sourcemodule = "Kinect_own"
+        source = "HEAD_POSITION"
+        targetmodule = "ThrowModule"
+        target = "INPUT_head_position"
+        delay = "1"
+    />
+
+    <connection sourcemodule="Kinect_own" source="INTENSITY" targetmodule="FaceDetector" target="INPUT" />
+    <connection sourcemodule="Tilt" source="OUTPUT" targetmodule="Kinect_own" target="TILT" />
+    <connection sourcemodule="Color" source="OUTPUT" targetmodule="Kinect_own" target="LED" />
+
+    <connection
+        sourcemodule = "ThrowModule"
+        source = "OUTPUT_servo_position"
+        targetmodule = "Dynamixel"
+        target = "GOAL_POSITION"
+        delay = "1"
+    />
+    
+    <module
+        class = "Constant"
+        name = "MovingSpeed"
+        outputsize = "3"
+        data = "0.7 0.7 0.7"
+    
+    />
+    
+    <connection
+        sourcemodule = "MovingSpeed"
+        source = "OUTPUT"
+        targetmodule = "Dynamixel"
+        target = "MOVING_SPEED"
+        
+    />
+    
+    
+    <view name="Dynamixel Control" object_size="50" >
+        
+        
+        <object
+        class   ="Image"
+        title   = "Kinect FaceTracking"
+        type	= "rgb"
+        module  = "Kinect_own"
+        source  = "RED+GREEN+BLUE"
+        x="0" y="0"
+        w="5" h="4"
+        min = "0"
+        max = "1"
+        />
+        
+        <object
+        class   = "Circle"
+        color = "red"
+        size    = "0.025"
+        module  = "FaceDetector"
+        source  = "FACES"
+        x="0" y="0"
+        w="5" h="4"
+        />
+        
+        <object
+        class   = "Cross"
+        size    = "0.05"
+        module  = "FaceDetector"
+        source  = "FACE_POSITION"
+        x="0" y="0"
+        w="5" h="4"
+        />
+        
+        <object class="Image" title="Kinect Focus" type="rgb" name="KINECTFOCUS" module = "Kinect_own" source = "RED+GREEN+BLUE" x="6" y="0" w="5" h="4" />
+        
+        
+        <object
+        class   = "Cross"
+        size    = "0.05"
+        module  = "Kinect_own"
+        source  = "FOCUS_POSITION"
+        x="6" y="0"
+        w="5" h="4"
+        />
+        
+        <object class="Slider" title="Tilt" module = "Tilt" parameter = "data" x="12" y="0" w="1" h="2" />
+        <object class="Slider" title="LED" module = "Color" parameter = "data" x="12" y="2" w="1" h="2" />
+        
+        <object
+        class="Table"
+        module = "Kinect_own"
+        source = "SHORTESTDISTANCE"
+        size = "16"
+        color = "white"
+        x="0"
+        y="5"
+        w="1"
+        h="1"
+        />
+        
+        <object
+        class="Table"
+        module = "Kinect_own"
+        source = "HEAD_POSITION"
+        size = "16"
+        color = "white"
+        x="2"
+        y="5"
+        w="1"
+        h="1"
+        />
+        
+        <object
+        class="BarGraph"
+        title="Actual Positions"
+        module = "Dynamixel"
+        source = "FEEDBACK_PRESENT_POSITION"
+        x="0" y="6"
+        w="2" h="2"
+        max="360"
+        />
+        
+        <object
+        class="BarGraph"
+        title="Speed"
+        module = "MovingSpeed"
+        source = "OUTPUT"
+        x="2" y="6"
+        w="2" h="2"
+        max="1"
+        />
+        
+        <object
+        class="BarGraph"
+        title="Temperature (°C)"
+        module = "Dynamixel"
+        source = "FEEDBACK_PRESENT_TEMPERATURE"
+        x="4" y="6"
+        w="2" h="2"
+        max="100"
+        />
+        
+        <object
+        class="Plot"
+        title="Load"
+        module = "Dynamixel"
+        source = "FEEDBACK_PRESENT_LOAD"
+        x="6" y="6"
+        w="2" h="2"
+        min="-1"
+        max="1"
+        />
+        <object
+        class="BarGraph"
+        title="Voltage (V)"
+        module = "Dynamixel"
+        source = "FEEDBACK_PRESENT_VOLTAGE"
+        x="8" y="6"
+        w="2" h="2"
+        max="20"
+        />
+        
+        <object
+        class="Table"
+        module = "Dynamixel"
+        source = "FEEDBACK_PRESENT_POSITION"
+        x="0" y="7"
+        w="5" h="2"
+        font_size = "20"
+        />
+
+    </view>
+</group>
+
